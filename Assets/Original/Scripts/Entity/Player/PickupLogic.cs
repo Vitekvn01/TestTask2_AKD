@@ -18,7 +18,6 @@ public class PickupLogic : MonoBehaviour
 
     private void HandleTouchPickupItem(Vector2 touchPosition)
     {
-        // Создаем луч из камеры в точку касания на экране
         Ray ray = Camera.main.ScreenPointToRay(touchPosition);
         RaycastHit hit;
 
